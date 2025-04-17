@@ -86,13 +86,10 @@ namespace QuickBookAccountApi.Services
                 token.RefreshToken = reader["RefreshToken"]?.ToString();
                
             }
-
             return token;
         }
     }
 }
-
-
 
 
 
